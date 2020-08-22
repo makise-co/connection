@@ -1,0 +1,22 @@
+{
+    "name": "makise-co/connection",
+    "description": "Basic connection toolset",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry K.",
+            "email": "coder1994@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakiseCo\\Connection\\": "src/"
+        }
+    }
+}
